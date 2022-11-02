@@ -16,6 +16,7 @@ import jp.co.soramitsu.staking.impl.presentation.staking.unbond.confirm.ConfirmU
 import jp.co.soramitsu.staking.impl.presentation.staking.unbond.select.SelectUnbondPayload
 import jp.co.soramitsu.staking.impl.presentation.validators.parcel.CollatorDetailsParcelModel
 import jp.co.soramitsu.staking.impl.presentation.validators.parcel.ValidatorDetailsParcelModel
+import jp.co.soramitsu.common.AlertViewState
 import kotlinx.coroutines.flow.Flow
 
 interface StakingRouter {
@@ -142,4 +143,8 @@ interface StakingRouter {
     fun openConfirmSelectValidators()
 
     val walletSelectorPayloadFlow: Flow<WalletSelectorPayload?>
+
+    fun openAlert(payload: AlertViewState)
+
+    val alertResultFlow: Flow<Result<Unit>>
 }
