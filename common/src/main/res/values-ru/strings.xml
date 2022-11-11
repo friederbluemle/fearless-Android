@@ -836,4 +836,7 @@
     <string name="all_done">Все готово</string>
     <string name="send_success_message">Теперь Вы можете вернуться в приложение и заняться чем обычно</string>
 
+    <string name="staking_pool_status_active">Активный</string>
+    <string name="staking_pool_status_inactive">Неактивный</string>
+    <string name="staking_pool_status_validators_are_not_selected">Валидаторы не выбраны</string>
 </resources>

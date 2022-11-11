@@ -922,5 +922,7 @@ Remember to make a backup of your key and keep it in a safe and private place (e
     <string name="all_done">All Done</string>
     <string name="send_success_message">You can now back to your app and\ndo that you\'re usually do</string>
 
-
+    <string name="staking_pool_status_active">Active</string>
+    <string name="staking_pool_status_inactive">Inactive</string>
+    <string name="staking_pool_status_validators_are_not_selected">Validators are not selected</string>
 </resources>
